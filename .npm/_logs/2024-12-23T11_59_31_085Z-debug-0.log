@@ -1,0 +1,34 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.12.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/mac/Library/Caches/typescript/5.7/.npmrc
+5 silly config load:file:/Users/mac/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/Users/mac/.npm/_logs/2024-12-23T11_59_31_085Z-
+10 verbose logfile /Users/mac/.npm/_logs/2024-12-23T11_59_31_085Z-debug-0.log
+11 silly logfile start cleaning logs, removing 5 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+14 silly logfile done cleaning log files
+15 http fetch GET 200 https://registry.npmjs.org/types-registry 4929ms (cache updated)
+16 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+17 silly idealTree buildDeps
+18 silly fetch manifest types-registry@0.1.700
+19 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/types-registry 958ms (cache updated)
+21 silly packumentCache full:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+22 silly placeDep ROOT types-registry@0.1.700 OK for:  want: 0.1.700
+23 silly reify moves {}
+24 silly audit bulk request { 'types-registry': [ '0.1.700' ] }
+25 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 735ms
+26 silly audit report {}
+27 silly ADD node_modules/types-registry
+28 verbose cwd /Users/mac/Library/Caches/typescript/5.7
+29 verbose os Darwin 22.6.0
+30 verbose node v22.12.0
+31 verbose npm  v10.9.0
+32 verbose exit 0
+33 info ok

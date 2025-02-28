@@ -1,0 +1,99 @@
+'Log files:
+/Users/mac/.npm/_logs/2024-12-14T03_27_36_223Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: react-no-ssr@1.1.0
+Found: react@19.0.0
+node_modules/react
+  peer react@"^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc" from @radix-ui/react-compose-refs@1.1.1
+  node_modules/@radix-ui/react-compose-refs
+    @radix-ui/react-compose-refs@"1.1.1" from @radix-ui/react-slot@1.1.1
+    node_modules/@radix-ui/react-slot
+      @radix-ui/react-slot@"1.1.1" from @radix-ui/react-primitive@2.0.1
+      node_modules/@radix-ui/react-primitive
+        @radix-ui/react-primitive@"2.0.1" from @radix-ui/react-label@2.1.1
+        node_modules/@radix-ui/react-label
+          @radix-ui/react-label@"^2.1.1" from the root project
+      @radix-ui/react-slot@"^1.1.1" from the root project
+  peer react@"^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc" from @radix-ui/react-label@2.1.1
+  node_modules/@radix-ui/react-label
+    @radix-ui/react-label@"^2.1.1" from the root project
+  peer react@"^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc" from @radix-ui/react-primitive@2.0.1
+  node_modules/@radix-ui/react-primitive
+    @radix-ui/react-primitive@"2.0.1" from @radix-ui/react-label@2.1.1
+    node_modules/@radix-ui/react-label
+      @radix-ui/react-label@"^2.1.1" from the root project
+  peer react@"^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc" from @radix-ui/react-slot@1.1.1
+  node_modules/@radix-ui/react-slot
+    @radix-ui/react-slot@"1.1.1" from @radix-ui/react-primitive@2.0.1
+    node_modules/@radix-ui/react-primitive
+      @radix-ui/react-primitive@"2.0.1" from @radix-ui/react-label@2.1.1
+      node_modules/@radix-ui/react-label
+        @radix-ui/react-label@"^2.1.1" from the root project
+    @radix-ui/react-slot@"^1.1.1" from the root project
+  peer react@"^16.8 || ^17.0 || ^18.0 || ^19.0.0 || ^19.0.0-rc" from input-otp@1.4.1
+  node_modules/input-otp
+    input-otp@"^1.4.1" from the root project
+  peer react@"^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc" from lucide-react@0.468.0
+  node_modules/lucide-react
+    lucide-react@"^0.468.0" from the root project
+  peer react@"^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0" from next@15.1.0
+  node_modules/next
+    next@"15.1.0" from the root project
+  peer react@"^19.0.0" from react-dom@19.0.0
+  node_modules/react-dom
+    peer react-dom@"^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc" from @radix-ui/react-label@2.1.1
+    node_modules/@radix-ui/react-label
+      @radix-ui/react-label@"^2.1.1" from the root project
+    peer react-dom@"^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc" from @radix-ui/react-primitive@2.0.1
+    node_modules/@radix-ui/react-primitive
+      @radix-ui/react-primitive@"2.0.1" from @radix-ui/react-label@2.1.1
+      node_modules/@radix-ui/react-label
+        @radix-ui/react-label@"^2.1.1" from the root project
+    peer react-dom@"^16.8 || ^17.0 || ^18.0 || ^19.0.0 || ^19.0.0-rc" from input-otp@1.4.1
+    node_modules/input-otp
+      input-otp@"^1.4.1" from the root project
+    peer react-dom@"^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0" from next@15.1.0
+    node_modules/next
+      next@"15.1.0" from the root project
+    react-dom@"^19.0.0" from the root project
+    peer react-dom@"^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc" from next-themes@0.4.4
+    node_modules/next-themes
+      next-themes@"*" from the root project
+  peer react@"^16.8.0 || ^17 || ^18 || ^19" from react-hook-form@7.54.1
+  node_modules/react-hook-form
+    peer react-hook-form@"^7.0.0" from @hookform/resolvers@3.9.1
+    node_modules/@hookform/resolvers
+      @hookform/resolvers@"^3.9.1" from the root project
+    react-hook-form@"^7.54.1" from the root project
+  peer react@"*" from react-icons@5.4.0
+  node_modules/react-icons
+    react-icons@"^5.4.0" from the root project
+  peer react@">= 16.8.0 || 17.x.x || ^18.0.0-0 || ^19.0.0-0" from styled-jsx@5.1.6
+  node_modules/styled-jsx
+    styled-jsx@"5.1.6" from next@15.1.0
+    node_modules/next
+      next@"15.1.0" from the root project
+  peerOptional react@">=18.0.0" from zustand@5.0.2
+  node_modules/zustand
+    zustand@"^5.0.2" from the root project
+  react@"^19.0.0" from the root project
+  peer react@"^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc" from next-themes@0.4.4
+  node_modules/next-themes
+    next-themes@"*" from the root project
+
+Could not resolve dependency:
+peer react@"^0.14.0 || ^15.0.0" from react-no-ssr@1.1.0
+node_modules/react-no-ssr
+  react-no-ssr@"^1.1.0" from the root project
+
+Conflicting peer dependency: react@15.7.0
+node_modules/react
+  peer react@"^0.14.0 || ^15.0.0" from react-no-ssr@1.1.0
+  node_modules/react-no-ssr
+    react-no-ssr@"^1.1.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

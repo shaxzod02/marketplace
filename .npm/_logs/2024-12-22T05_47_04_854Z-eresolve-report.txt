@@ -1,0 +1,33 @@
+'Log files:
+/Users/mac/.npm/_logs/2024-12-22T05_47_04_854Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: client@0.1.0
+Found: react@19.0.0
+node_modules/react
+  react@"^19.0.0" from the root project
+  peer react@"^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0" from next@15.1.0
+  node_modules/next
+    next@"15.1.0" from the root project
+    peerOptional next@"*" from @uploadthing/react@7.1.3
+    node_modules/@uploadthing/react
+      @uploadthing/react@"*" from the root project
+  peer react@"^19.0.0" from react-dom@19.0.0
+  node_modules/react-dom
+    react-dom@"^19.0.0" from the root project
+    peer react-dom@"^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0" from next@15.1.0
+    node_modules/next
+      next@"15.1.0" from the root project
+      peerOptional next@"*" from @uploadthing/react@7.1.3
+      node_modules/@uploadthing/react
+        @uploadthing/react@"*" from the root project
+
+Could not resolve dependency:
+peer react@"^17.0.2 || ^18.0.0" from @uploadthing/react@7.1.3
+node_modules/@uploadthing/react
+  @uploadthing/react@"*" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

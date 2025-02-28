@@ -1,0 +1,18 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.12.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/.npmrc
+5 silly config load:file:/Users/mac/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm config get prefix
+8 verbose argv "config" "get" "prefix"
+9 verbose logfile logs-max:10 dir:/Users/mac/.npm/_logs/2024-12-31T14_01_18_227Z-
+10 verbose logfile /Users/mac/.npm/_logs/2024-12-31T14_01_18_227Z-debug-0.log
+11 silly logfile start cleaning logs, removing 2 files
+12 verbose cwd /
+13 verbose os Darwin 22.6.0
+14 verbose node v22.12.0
+15 verbose npm  v10.9.0
+16 verbose exit 0
+17 info ok
